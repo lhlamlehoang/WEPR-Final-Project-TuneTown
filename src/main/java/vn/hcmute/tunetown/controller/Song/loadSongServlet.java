@@ -34,7 +34,7 @@ public class loadSongServlet extends HttpServlet {
             User loggedUser = (User) session.getAttribute("loggedUser");
             UserDAO userDAO = new UserDAO();
 
-            User userLog = userDAO.getUserById(GlobalUser.globalUserId);
+            User userLog = userDAO.getUserById(loggedUser.getUserID());
 
             if (loggedUser == null) {
                 url = "/view/login.jsp";

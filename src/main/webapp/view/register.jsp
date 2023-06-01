@@ -107,7 +107,7 @@
               <div class="input-form">
                 <p class="input-form-register">
                   Have an account?
-                  <a href="/">Login</a>
+                  <a href="/login">Login</a>
                 </p>
               </div>
               <div class="input-form">

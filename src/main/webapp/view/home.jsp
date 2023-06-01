@@ -91,7 +91,7 @@
             <div class="wrap-option-profile">
               <img
                       id="avatar-profile"
-                      src="${avatar}"
+                      src="${loggedUser.getUserAvatar()}"
                       alt="avatar"
               />
               <ul id="option-profile">

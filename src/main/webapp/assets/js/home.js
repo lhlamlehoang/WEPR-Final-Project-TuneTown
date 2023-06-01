@@ -506,7 +506,7 @@ function downloadSongItemFunc(songId) {
   // Create a hidden form element to submit the songId to the server
   const form = document.createElement("form");
   form.setAttribute("method", "POST");
-  form.setAttribute("action", "/TuneTown_theWebsite_war_exploded/downloadSong");
+  form.setAttribute("action", "/downloadSong");
 
   // Create a hidden input field to hold the songId value
   const input = document.createElement("input");

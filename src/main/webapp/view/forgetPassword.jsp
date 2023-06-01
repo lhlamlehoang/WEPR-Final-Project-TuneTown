@@ -114,7 +114,7 @@
             </div>
         </form>
         <div class="input-form">
-            <p>Return To Login <a href="/">Return</a></p>
+            <p>Return To Login <a href="/login">Return</a></p>
         </div>
     </div>
 </div>
